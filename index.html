@@ -26,17 +26,13 @@
                     </div>
                 </div>
                 <div class="header__inner header__inner--right">
-                    <button class="button__normalize header__inner" type="button">
-                        <span class="button__text">Оствить заявку</span>
-                        <div class="button header__button button--icon--check-status" ></div>                     
+                    <label for="check-status"class="button__label">Оствить заявку</label> 
+                    <button id="check-status" class="button header__button button--icon--check-status" type="button">
                     </button>
-                    <button class="button__normalize header__inner" type="button">
-                        <span class="button__text">Статус ремонта</span>
-                        <div class="button header__button button--icon--repair"></div>
+                    <label for="icon-repair"class="button__label">Ставку ремонта</label> 
+                    <button id="icon-repair" class="button header__button button--icon--repair" type="button">
                     </button>
                 </div>
-            </div>
-        </div>
     </header>
     <div class="header__title">
         <div class="title">
@@ -69,7 +65,7 @@
     </div>
 </nav>
 <main class="main">
-    <section class="intro">
+    <article class="intro">
         <div class="container intro__inner">
             <div class="intro__text">
                 <p class="intro__text-1">
@@ -81,16 +77,17 @@
                 <p class="intro__text-3">
                      что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
                 </p>
-                <button class="button--type--read-more button__normalize" type="button">
-                    <div class="arrows"></div>
-                    <span class="arrows__text">Читать далее</span>
+                <button class="button button--type--read-more" type="button">
+                    Читать далее
+                    <!-- <div class="arrows"></div> -->
+                    <!-- <span class="arrows__text">Читать далее</span> -->
                 </button>
             </div>
         </div>
         <div class="intro__photo--padding">
             <img src="img/photo/logo.jpg" alt="wallboard with GPS logo" class="intro__photo">
         </div>
-        </section>
+    </article>
 </main>
 
 </body>
