@@ -240,7 +240,7 @@ html {
 .header__logo {
     margin-right: auto; 
 }
-.header__logo:hover{
+.link--logo:hover{
     transform: scale(1.1);
     transition-duration: 2ms;
 }
@@ -410,8 +410,11 @@ html {
     padding: 0;
     font-family: inherit;
     font-size: 100%; 
-    line-height: 1.15; 
-   
+    line-height: 1.15;  
+}
+
+.button--type--read-more:hover{
+    transform: none;
 }
 .button--type--read-more::before {
     content:"";
