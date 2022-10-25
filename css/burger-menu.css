@@ -7,9 +7,7 @@
 .burger-menu__sidebar{
     width: 320px;
     height: 1024px;
-    position: relative;
-    /* left: -8px; */
-    /* top: -8px; */
+    transform: translate(left top);
     box-shadow: 0 20px 50px -20px;
     overflow-y: scroll;
     scrollbar-width: none; /* скрывает скролл в firefox */
